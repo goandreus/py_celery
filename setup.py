@@ -14,12 +14,8 @@ install_requires = [
 ]
 
 setup(
-    name="redisbeat",
     version="1.0.0",
-    author="lamurga",
     packages=find_packages(),
-    download_url="https://github.com/lamurga/crehana-redisbeat",
-    description="Python library for crehana",
     install_requires=install_requires,
     include_package_data=True,
 )
