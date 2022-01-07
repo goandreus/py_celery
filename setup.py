@@ -7,7 +7,7 @@ except ImportError:
         return ['redisbeat']
 
 install_requires = [
-    "celery == 4.1.0",
+    "celery == 5.2.2",
     "redis == 2.10.6",
     "tenacity >= 5.0.3",
     "mock >= 2.0.0"
