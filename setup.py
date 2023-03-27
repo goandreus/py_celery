@@ -8,7 +8,7 @@ except ImportError:
 
 install_requires = [
     "celery == 5.2.2",
-    "redis == 2.10.6",
+    "redis == 4.5.3",
     "tenacity >= 5.0.3",
     "mock >= 2.0.0"
 ]
